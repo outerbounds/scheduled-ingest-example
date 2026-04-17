@@ -2,7 +2,7 @@
 name = "scheduled-ingest-example"
 version = "0.1.0"
 description = "Demonstrates @project_schedule for branch-aware cron scheduling"
-requires-python = ">=3.10"
+requires-python = "=3.12"
 dependencies = [
     "outerbounds",
 ]
