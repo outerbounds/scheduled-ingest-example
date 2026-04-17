@@ -1,0 +1,6 @@
+platform = "dev-yellow.outerbounds.xyz"
+project = "scheduled_ingest_example"
+title = "Branch-Aware Scheduling Example"
+
+[dev-assets]
+branch = "main"
