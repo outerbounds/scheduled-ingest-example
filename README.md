@@ -31,8 +31,6 @@ class IngestFlow(ProjectFlow):
 ## Running locally
 
 ```bash
-export METAFLOW_PROFILE=yellow
-
 # From this directory:
 cd flows/ingest
 python flow.py run
