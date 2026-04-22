@@ -15,7 +15,7 @@ ScheduledIngestFlow
 
 ## Platform features used
 
-- **@project_schedule**: Branch-aware scheduling — different cron per branch, no schedule for unspecified branches
+- **@project_schedule**: ob-project-utils wrapper around Metaflow's `@schedule` decorator. Adds branch-awareness — different cron per branch, no schedule for unspecified branches. Under the hood, it's a `FlowMutator` that applies the right `@schedule` based on which branch the flow is deployed to.
 - **[dev-assets]**: Read production data from main on feature branches
 - **Teardown**: CI cleans up Argo resources on branch merge/delete
 
